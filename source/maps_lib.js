@@ -22,12 +22,12 @@ var MapsLib = {
 
   //*New Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
   //*Important* this key is for demonstration purposes. please register your own.
-  googleApiKey:       "AIzaSyBZbQ-do9e_rky9PBFbBpWwJ36GaV7HFrk",
+  googleApiKey:       "AIzaSyBiSQxYlSAn8B4fBNANuiOUDmf0Mv72MAY",
 
   //name of the location column in your Fusion Table.
   //NOTE: if your location column name has spaces in it, surround it with single quotes
   //example: locationColumn:     "'my location'",
-  locationColumn:     "latitude,
+  locationColumn:     "latitude",
 
   map_centroid:       new google.maps.LatLng(37.8044, -122.2697), //center that your map defaults to
   locationScope:      "oakland",      //geographical area appended to all address searches
