@@ -30,7 +30,7 @@ var MapsLib = {
   locationColumn:     "Latitude",
 
   map_centroid:       new google.maps.LatLng(37.8044, -122.2697), //center that your map defaults to
-  locationScope:      "oakland",      //geographical area appended to all address searches
+  locationScope:      "oakland, california",      //geographical area appended to all address searches
   recordName:         "elementary school",       //for showing number of results
   recordNamePlural:   "elementary schools",
 
