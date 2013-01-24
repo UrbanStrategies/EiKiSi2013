@@ -18,7 +18,7 @@ var MapsLib = {
 
   //the encrypted Table ID of your Fusion Table (found under File => About)
   //NOTE: numeric IDs will be depricated soon
-  fusionTableId:      "1vFge162nQNKIaLIKati1K4860hipj_LXRNcF79w",
+  fusionTableId:      "1vkHh2ibPokQkef7m4e6K3X4lS-ZtUPFc1KR2kkM",
 
   //*New Fusion Tables Requirement* API key. found at https://code.google.com/apis/console/
   //*Important* this key is for demonstration purposes. please register your own.
@@ -27,14 +27,14 @@ var MapsLib = {
   //name of the location column in your Fusion Table.
   //NOTE: if your location column name has spaces in it, surround it with single quotes
   //example: locationColumn:     "'my location'",
-  locationColumn:     "Street",
+  locationColumn:     "FullAddress",
 
   map_centroid:       new google.maps.LatLng(37.8044, -122.2697), //center that your map defaults to
-  locationScope:      "oakland, california",      //geographical area appended to all address searches
-  recordName:         "elementary school",       //for showing number of results
-  recordNamePlural:   "elementary schools",
+  locationScope:      "california",      //geographical area appended to all address searches
+  recordName:         "VITA Site",       //for showing number of results
+  recordNamePlural:   "VITA Sites",
 
-  searchRadius:       805,            //in meters ~ 1/2 mile
+  searchRadius:       1805,            //in meters ~ 1/2 mile
   defaultZoom:        11,             //zoom level when map is loaded (bigger is more zoomed in)
   addrMarkerImage: 'http://derekeder.com/images/icons/blue-pushpin.png',
   currentPinpoint: null,
