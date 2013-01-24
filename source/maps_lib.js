@@ -237,7 +237,7 @@ var MapsLib = {
   },
 
 getList: function(whereClause) {
-  var selectColumns = "TaxSite, FullAddress, Languages";
+  var selectColumns = "TaxSite,FullAddress,Languages";
   MapsLib.query(selectColumns, whereClause, "MapsLib.displayList");
 },
 
