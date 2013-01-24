@@ -263,9 +263,7 @@ displayList: function(json) {
             " + data[row][1] + "\
             <br />\
             " + data[row][2] + "\
-            <br />\
-            " + data[row][3] + "\
-          </div>\
+            </div>\
         </div>"
       results.append(template);
     }
