@@ -82,12 +82,12 @@ var MapsLib = {
 
     //-----custom filters-------
     
-var type_column = "'Languages'";
+var type_column = "Languages;
 var tempWhereClause = [];
-if ( $("#cbType1").is(':checked')) tempWhereClause.push("*Spanish*");
-if ( $("#cbType2").is(':checked')) tempWhereClause.push("*Chinese*");
-if ( $("#cbType3").is(':checked')) tempWhereClause.push("*Tagalog*");
-if ( $("#cbType4").is(':checked')) tempWhereClause.push("*Vietnamese*");
+if ( $("#cbType1").is(':checked')) tempWhereClause.push("Spanish");
+if ( $("#cbType2").is(':checked')) tempWhereClause.push("Chinese");
+if ( $("#cbType3").is(':checked')) tempWhereClause.push("Tagalog");
+if ( $("#cbType4").is(':checked')) tempWhereClause.push("Vietnamese");
 whereClause += " AND " + type_column + " IN ('" + tempWhereClause.join('\',\'') + "')";
 
     //-------end of custom filters--------
